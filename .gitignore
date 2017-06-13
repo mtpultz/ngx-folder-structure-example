@@ -1,0 +1,9 @@
+# Ignored IDE artifacts
+
+# IntelliJ
+.idea/
+*.iml
+
+# Ignored all vendor folders since their should not be any vendor
+# dependencies being tracked in the repository
+/node_modules

@@ -1,0 +1,33 @@
+.card {
+  border: 5px solid rgba(28, 24, 25, 0.2);
+  margin-top: 40px;
+  .card-header {
+    background-color: #3A3A3A;
+    text-align: center;
+    img {
+      margin: 18px 0;
+      // Maintain centered image, but force responsiveness on small screens earlier
+      padding: 0 18px;
+    }
+  }
+  .card-block {
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    a:hover {
+       text-decoration: underline;
+       cursor: pointer;
+    }
+  }
+}
